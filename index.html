@@ -219,8 +219,10 @@ footer small{color:rgba(255,255,255,.5);font-family:var(--fa);font-size:13px;fon
 }
 @media(max-width:620px){
   .nav-pill{padding:9px 9px 9px 18px}.brand-tx b{font-size:18px}
-  .hero{padding-bottom:11vh}.hero h1{font-size:clamp(64px,24vw,112px)}
-  .hero-rate{left:50%;transform:translateX(-50%)}
+  .hero{padding-bottom:84px;flex-direction:column;align-items:center;justify-content:flex-end}.hero h1{font-size:clamp(64px,24vw,112px)}
+  .hero-inner{width:90vw}
+  .hero-rate{position:static;left:auto;bottom:auto;transform:none;margin:18px auto 0;align-self:center}
+  .scroll-hint{display:none}
   .counters{grid-template-columns:1fr}
   .sig-bento{grid-template-columns:1fr}.sig-a,.sig-b,.sig-c{grid-column:span 1}
   .gal{grid-template-columns:1fr}.gal{grid-auto-rows:230px}.g-wide{grid-column:span 1}.g-tall{grid-row:span 1}
